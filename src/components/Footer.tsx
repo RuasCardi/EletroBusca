@@ -21,7 +21,7 @@ const Footer = () => {
               <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors">
                 <Facebook className="w-5 h-5 text-background" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.instagram.com/eletrobusca?utm_source=qr&igsh=MXhiN3o2aGVwMWM3Yg%3D%3D" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors">
                 <Instagram className="w-5 h-5 text-background" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors">
@@ -46,7 +46,7 @@ const Footer = () => {
             <h4 className="text-background font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-background/70">
               <li>(19) 98209-1708</li>
-              <li>cardinalliruas@gmail.com</li>
+              <li>buscaeletro@gmail.com</li>
               <li>www.eletrobusca.com.br</li>
               <li>Campinas, SP e Região metropolitana de campinas</li>
             </ul>

@@ -32,11 +32,11 @@ const CTA = () => {
               <span className="text-primary-foreground font-semibold">(19) 98209-1708</span>
             </a>
             <a 
-              href="mailto:cardinalliruas@gmail.com"
+              href="mailto:buscaeletro@gmail.com"
               className="flex items-center justify-center gap-3 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-xl border border-primary-foreground/20 hover:bg-primary-foreground/20 transition-colors"
             >
               <Mail className="w-6 h-6 text-primary-foreground" />
-              <span className="text-primary-foreground font-semibold">cardinalliruas@gmail.com</span>
+              <span className="text-primary-foreground font-semibold">buscaeletro@gmail.com</span>
             </a>
             <div className="flex items-center justify-center gap-3 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-xl border border-primary-foreground/20">
               <MapPin className="w-6 h-6 text-primary-foreground" />
