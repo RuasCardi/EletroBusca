@@ -43,7 +43,7 @@ const CTA = () => {
           </div>
 
           <a
-            href="https://wa.me/5519982091708?text=Olá! Gostaria de agendar uma coleta de eletrônicos."
+            href="https://wa.me/5519982091708?text=Olá!%20Gostaria%20de%20agendar%20uma%20coleta%20de%20eletrônicos."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-lg px-10 py-7 animate-fade-in bg-white text-primary font-bold rounded-xl shadow transition hover:bg-primary hover:text-white"
