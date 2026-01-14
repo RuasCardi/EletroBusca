@@ -8,10 +8,12 @@ const Footer = () => {
           {/* Logo and description */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Recycle className="w-8 h-8 text-primary" />
-              <span className="text-2xl font-bold text-background">
-                ELETRO<span className="text-primary">BUSCA</span>
-              </span>
+              <img
+                src="/logo-eletrobusca.png"
+                alt="Logo EletroBusca"
+                className="w-32 h-auto object-contain drop-shadow-lg"
+                style={{ maxHeight: '64px' }}
+              />
             </div>
             <p className="text-background/70 mb-4 max-w-sm">
               Soluções completas para coleta, descarte e reciclagem de equipamentos 
@@ -48,7 +50,7 @@ const Footer = () => {
               <li>(19) 98209-1708</li>
               <li>buscaeletro@gmail.com</li>
               <li>www.eletrobusca.com.br</li>
-              <li>Campinas, SP e Região metropolitana de campinas</li>
+              <li>Campinas, SP e Região metropolitana de Campinas-SP</li>
             </ul>
           </div>
         </div>
