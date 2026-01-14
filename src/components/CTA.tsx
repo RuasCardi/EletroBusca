@@ -23,7 +23,9 @@ const CTA = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <a 
-              href="tel:+5519982091708"
+              href="https://wa.me/5519982091708?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20coleta%20de%20eletr%C3%B4nicos."
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-xl border border-primary-foreground/20 hover:bg-primary-foreground/20 transition-colors"
             >
               <Phone className="w-6 h-6 text-primary-foreground" />
@@ -43,7 +45,7 @@ const CTA = () => {
           </div>
 
           <a
-            href="https://wa.me/5519982091708?text=Olá!%20Gostaria%20de%20agendar%20uma%20coleta%20de%20eletrônicos."
+            href="https://wa.me/5519982091708?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20coleta%20de%20eletr%C3%B4nicos."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-lg px-10 py-7 animate-fade-in bg-white text-primary font-bold rounded-xl shadow transition hover:bg-primary hover:text-white"
