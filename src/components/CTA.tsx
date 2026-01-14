@@ -23,7 +23,7 @@ const CTA = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <a 
-              href="tel:+5511999999999"
+              href="tel:+5519982091708"
               className="flex items-center justify-center gap-3 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-xl border border-primary-foreground/20 hover:bg-primary-foreground/20 transition-colors"
             >
               <Phone className="w-6 h-6 text-primary-foreground" />
