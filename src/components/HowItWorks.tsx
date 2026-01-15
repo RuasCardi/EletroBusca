@@ -14,12 +14,12 @@ const steps = [
   {
     icon: Recycle,
     title: "Reciclagem",
-    description: "Os materiais são separados e enviados para reciclagem certificada.",
+    description: "Os materiais são separados e enviados para reciclagem ambientalmente adequada.",
   },
   {
     icon: FileCheck,
-    title: "Certificação",
-    description: "Você recebe o certificado de destinação correta dos resíduos eletrônicos.",
+    title: "Destino Correto",
+    description: "Garantimos que os resíduos eletrônicos tenham a destinação ambiental adequada.",
   },
 ];
 
@@ -62,7 +62,7 @@ const HowItWorks = () => {
                 </div>
                 
                 {/* Content */}
-                <div className="bg-card p-6 rounded-xl border border-border card-shadow">
+                <div className="bg-card p-6 rounded-xl border border-border card-shadow h-[170px] flex flex-col justify-center items-center">
                   <h3 className="text-xl font-bold text-foreground mb-2">{step.title}</h3>
                   <p className="text-muted-foreground">{step.description}</p>
                 </div>

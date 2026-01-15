@@ -26,6 +26,23 @@ const Navbar = () => {
     { label: "Contato", id: "contato" },
   ];
 
+  // Theme toggle
+  const [theme, setTheme] = useState(() => {
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("theme") || "light";
+    }
+    return "light";
+  });
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
+
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent"
@@ -41,6 +58,7 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Navigation */}
+          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <button
@@ -53,12 +71,21 @@ const Navbar = () => {
                 {link.label}
               </button>
             ))}
-            <Button 
-              variant={isScrolled ? "default" : "hero"}
-              onClick={() => scrollToSection("contato")}
-            >
-              Agendar Coleta
-            </Button>
+            <div className="flex items-center gap-2">
+              <Button 
+                variant={isScrolled ? "default" : "hero"}
+                onClick={() => scrollToSection("contato")}
+              >
+                Agendar Coleta
+              </Button>
+              <button
+                onClick={toggleTheme}
+                className="ml-2 px-3 py-2 rounded bg-muted text-foreground hover:bg-primary transition-colors"
+                aria-label="Alternar tema claro/escuro"
+              >
+                {theme === "dark" ? "🌙" : "☀️"}
+              </button>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}

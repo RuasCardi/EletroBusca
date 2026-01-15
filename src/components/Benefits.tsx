@@ -1,4 +1,4 @@
-import { Leaf, Building2, Users, Award, ShieldCheck, Clock } from "lucide-react";
+import { Leaf, Building2, Users, Globe, Check, ShieldCheck, Clock } from "lucide-react";
 
 const benefits = [
   {
@@ -9,7 +9,7 @@ const benefits = [
   {
     icon: Building2,
     title: "Para Empresas",
-    description: "Atendemos empresas de todos os portes com coleta programada e certificação de descarte.",
+    description: "Atendemos empresas de todos os portes com coleta programada.",
   },
   {
     icon: Users,
@@ -17,14 +17,19 @@ const benefits = [
     description: "Pessoas físicas também podem agendar coletas gratuitas para seus eletrônicos antigos.",
   },
   {
-    icon: Award,
-    title: "Certificação",
-    description: "Emitimos certificados de descarte correto, essencial para compliance empresarial.",
+    icon: () => (
+      <span className="relative">
+        <Globe className="w-7 h-7 text-primary inline" />
+        <Check className="w-5 h-5 text-green-500 absolute -right-3 -bottom-2 bg-white rounded-full" />
+      </span>
+    ),
+    title: "Compromisso Sustentável",
+    description: "Atuação baseada em responsabilidade ambiental e ética.",
   },
   {
     icon: ShieldCheck,
     title: "Segurança de Dados",
-    description: "Destruição segura de HDs e dispositivos de armazenamento com certificação.",
+    description: "Destruição segura de HDs e dispositivos de armazenamento.",
   },
   {
     icon: Clock,
