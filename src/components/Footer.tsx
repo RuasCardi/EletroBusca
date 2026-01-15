@@ -54,7 +54,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-black dark:text-white">Contato</h4>
             <ul className="space-y-2 text-black dark:text-white/80">
               <li>(19) 98209-1708</li>
-              <li>buscaeletro@gmail.com</li>
+              <li>buscaeletrocps@gmail.com</li>
               <li>www.eletrobusca.com.br</li>
               <li>Campinas-SP e Região Metropolitana de Campinas-SP.</li>
             </ul>
