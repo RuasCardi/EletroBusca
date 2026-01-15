@@ -55,7 +55,7 @@ const Footer = () => {
             <ul className="space-y-2 text-black dark:text-white/80">
               <li>(19) 98209-1708</li>
               <li>buscaeletrocps@gmail.com</li>
-              <li>www.eletrobusca.com.br</li>
+              <li>https://eletro-busca.vercel.app/</li>
               <li>Campinas-SP e Região Metropolitana de Campinas-SP.</li>
             </ul>
           </div>
