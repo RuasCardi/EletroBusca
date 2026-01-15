@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <img src="/src/img/ChatGPT Image 15 de jan. de 2026, 14_42_54.png" alt="Logo EletroBusca" className="h-48 w-auto object-contain" />
+            <img src="/ChatGPT Image 15 de jan. de 2026, 14_42_54.png" alt="Logo EletroBusca" className="h-48 w-auto object-contain" />
           </a>
 
           {/* Desktop Navigation */}

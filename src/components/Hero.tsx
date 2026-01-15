@@ -23,7 +23,7 @@ const Hero = () => {
         {/* Logo */}
           <div className="flex items-center justify-center mb-8 animate-fade-in">
               <img 
-                src="/src/img/ChatGPT Image 15 de jan. de 2026, 14_42_54.png" 
+                src="/ChatGPT Image 15 de jan. de 2026, 14_42_54.png" 
                 alt="Logo EletroBusca" 
                 className="w-[340px] md:w-[440px] lg:w-[520px] h-auto"
               />
