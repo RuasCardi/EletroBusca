@@ -8,12 +8,9 @@ const Footer = () => {
           {/* Logo and description */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <img
-                src="/favicon.svg"
-                alt="Logo EletroBusca"
-                className="w-32 h-auto object-contain drop-shadow-lg"
-                style={{ maxHeight: '64px' }}
-              />
+              <span className="font-bold text-3xl text-background drop-shadow-lg" style={{ fontFamily: 'inherit' }}>
+                EletroBusca
+              </span>
             </div>
             <p className="text-background/70 mb-4 max-w-sm">
               Soluções completas para coleta, descarte e reciclagem de equipamentos 
