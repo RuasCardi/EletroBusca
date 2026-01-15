@@ -10,33 +10,36 @@ const Footer = () => {
         }
       `}</style>
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 items-start text-center md:text-left">
           {/* Logo and description */}
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="font-bold text-3xl drop-shadow-lg text-black dark:text-white" style={{ fontFamily: 'inherit' }}>
+          <div className="flex flex-col h-full justify-center md:justify-start items-center md:items-start">
+            <div className="flex flex-col justify-center h-full">
+              <div className="flex items-center gap-2 mb-4 mx-auto md:mx-0">
+                <Recycle className="w-8 h-8 text-primary drop-shadow-lg" />
+                <span className="font-bold text-2xl md:text-3xl text-black dark:text-white drop-shadow-lg" style={{ fontFamily: 'inherit' }}>
                   EletroBusca
                 </span>
-            </div>
-            <p className="mb-4 max-w-sm text-black dark:text-white/80">
-              Soluções completas para coleta, descarte e reciclagem de equipamentos 
-              eletrônicos. Cuidando do meio ambiente com responsabilidade.
-            </p>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-black/10 dark:bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Facebook className="w-5 h-5 text-black dark:text-white" />
-              </a>
-              <a href="https://www.instagram.com/eletrobusca?utm_source=qr&igsh=MXhiN3o2aGVwMWM3Yg%3D%3D" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-black/10 dark:bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Instagram className="w-5 h-5 text-black dark:text-white" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-black/10 dark:bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Linkedin className="w-5 h-5 text-black dark:text-white" />
-              </a>
+              </div>
+              <p className="mb-4 max-w-sm text-black dark:text-white/80 mx-auto md:mx-0">
+                Soluções completas para coleta, descarte e reciclagem de equipamentos 
+                eletrônicos. Cuidando do meio ambiente com responsabilidade.
+              </p>
+              <div className="flex gap-4 justify-center md:justify-start">
+                <a href="#" className="w-10 h-10 rounded-full bg-black/10 dark:bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                  <Facebook className="w-5 h-5 text-black dark:text-white" />
+                </a>
+                <a href="https://www.instagram.com/eletrobusca?utm_source=qr&igsh=MXhiN3o2aGVwMWM3Yg%3D%3D" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-black/10 dark:bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                  <Instagram className="w-5 h-5 text-black dark:text-white" />
+                </a>
+                <a href="#" className="w-10 h-10 rounded-full bg-black/10 dark:bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                  <Linkedin className="w-5 h-5 text-black dark:text-white" />
+                </a>
+              </div>
             </div>
           </div>
 
           {/* Links */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h4 className="font-semibold mb-4 text-black dark:text-white">Links Rápidos</h4>
             <ul className="space-y-2">
               <li><a href="#o-que-coletamos" className="hover:text-primary transition-colors text-black dark:text-white/80">O que Coletamos</a></li>
@@ -47,13 +50,13 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h4 className="font-semibold mb-4 text-black dark:text-white">Contato</h4>
             <ul className="space-y-2 text-black dark:text-white/80">
               <li>(19) 98209-1708</li>
               <li>buscaeletro@gmail.com</li>
               <li>www.eletrobusca.com.br</li>
-              <li>Campinas, SP e Região metropolitana de Campinas-SP</li>
+              <li>Campinas-SP e Região Metropolitana de Campinas-SP.</li>
             </ul>
           </div>
         </div>

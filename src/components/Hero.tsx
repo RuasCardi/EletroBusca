@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 hero-gradient" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#16b96b] via-[#16b96b] to-[#1796c6]" />
       
       {/* Decorative wave */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-background wave-clip" />
@@ -21,20 +21,13 @@ const Hero = () => {
 
       <div className="relative z-10 container mx-auto px-4 pt-24 pb-40">
         {/* Logo */}
-        <div className="flex items-center justify-center mb-8 animate-fade-in">
-          <div className="flex items-center gap-3">
-            <div className="relative">
-              <Recycle className="w-16 h-16 text-primary-foreground" />
-              <div className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-secondary flex items-center justify-center">
-                <div className="w-3 h-3 rounded-full bg-primary-foreground" />
-              </div>
-            </div>
-            <div className="text-primary-foreground">
-              <span className="text-4xl md:text-5xl font-extrabold tracking-tight">ELETRO</span>
-              <span className="text-4xl md:text-5xl font-extrabold tracking-tight text-secondary-foreground/90">BUSCA</span>
-            </div>
+          <div className="flex items-center justify-center mb-8 animate-fade-in">
+              <img 
+                src="/src/img/ChatGPT Image 15 de jan. de 2026, 14_42_54.png" 
+                alt="Logo EletroBusca" 
+                className="w-[340px] md:w-[440px] lg:w-[520px] h-auto"
+              />
           </div>
-        </div>
 
         {/* Main headline */}
         <div className="text-center max-w-4xl mx-auto mb-12">

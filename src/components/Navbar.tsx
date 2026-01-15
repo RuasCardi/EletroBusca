@@ -51,10 +51,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <Recycle className={`w-8 h-8 transition-colors ${isScrolled ? "text-primary" : "text-primary-foreground"}`} />
-            <span className={`text-xl font-bold transition-colors ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>
-              ELETRO<span className={`${isScrolled ? "text-secondary" : "text-white/80"}`}>BUSCA</span>
-            </span>
+            <img src="/src/img/ChatGPT Image 15 de jan. de 2026, 14_42_54.png" alt="Logo EletroBusca" className="h-48 w-auto object-contain" />
           </a>
 
           {/* Desktop Navigation */}
