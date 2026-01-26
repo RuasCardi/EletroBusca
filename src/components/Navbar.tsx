@@ -27,21 +27,7 @@ const Navbar = () => {
   ];
 
   // Theme toggle
-  const [theme, setTheme] = useState(() => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("theme") || "light";
-    }
-    return "light";
-  });
-
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", theme === "dark");
-    localStorage.setItem("theme", theme);
-  }, [theme]);
-
-  const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+  
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -75,13 +61,6 @@ const Navbar = () => {
               >
                 Agendar Coleta
               </Button>
-              <button
-                onClick={toggleTheme}
-                className="ml-2 px-3 py-2 rounded bg-muted text-foreground hover:bg-primary transition-colors"
-                aria-label="Alternar tema claro/escuro"
-              >
-                {theme === "dark" ? "🌙" : "☀️"}
-              </button>
             </div>
           </div>
 
