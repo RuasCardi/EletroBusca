@@ -11,19 +11,66 @@ const TrustedBy = () => {
               0% { transform: translateX(0); }
               100% { transform: translateX(-50%); }
             }
-            .trusted-marquee { display: flex; width: 200%; align-items: center; gap: 1.5rem; }
+            .trusted-marquee { 
+              display: flex; 
+              width: 200%; 
+              align-items: center;
+              justify-content: center; 
+              gap: 6rem;
+            }
+            .trusted-marquee img { 
+              display: flex;
+              align-self: center;
+            }
+            .trusted-marquee .logo-mast { height: 40px; width: auto; object-fit: contain; }
+            .trusted-marquee .logo-hagens { height: 192px; width: auto; object-fit: contain; margin-top: 30px; }
+            @media (min-width: 768px) {
+              .trusted-marquee .logo-mast { height: 60px; }
+              .trusted-marquee .logo-hagens { height: 240px; margin-top: 40px; }
+              .trusted-marquee { gap: 8rem; }
+            }
           `}</style>
 
-          <div className="trusted-marquee" style={{ animation: 'marquee 18s linear infinite' }}>
+          <div className="trusted-marquee" style={{ animation: 'marquee 20s linear infinite' }}>
             <img
               src="/img/image.png"
-              alt="Empresas que confiam na EletroBusca"
-              className="max-w-[160px] md:max-w-[280px] lg:max-w-[420px] h-auto object-contain mx-auto"
+              alt="Mast Soluções e Tecnologia"
+              className="logo-mast"
+            />
+            <img
+              src="/img/hagens-removebg-preview (1).png"
+              alt="Hagens"
+              className="logo-hagens"
             />
             <img
               src="/img/image.png"
-              alt="Empresas que confiam na EletroBusca"
-              className="max-w-[160px] md:max-w-[280px] lg:max-w-[420px] h-auto object-contain mx-auto"
+              alt="Mast Soluções e Tecnologia"
+              className="logo-mast"
+            />
+            <img
+              src="/img/hagens-removebg-preview (1).png"
+              alt="Hagens"
+              className="logo-hagens"
+            />
+            <img
+              src="/img/image.png"
+              alt="Mast Soluções e Tecnologia"
+              className="logo-mast"
+            />
+            <img
+              src="/img/hagens-removebg-preview (1).png"
+              alt="Hagens"
+              className="logo-hagens"
+            />
+            <img
+              src="/img/image.png"
+              alt="Mast Soluções e Tecnologia"
+              className="logo-mast"
+            />
+            <img
+              src="/img/hagens-removebg-preview (1).png"
+              alt="Hagens"
+              className="logo-hagens"
             />
           </div>
         </div>
