@@ -15,19 +15,20 @@ const TrustedBy = () => {
               display: flex; 
               width: 200%; 
               align-items: center;
-              justify-content: center; 
-              gap: 6rem;
+              justify-content: flex-start; 
+              gap: 1rem;
             }
             .trusted-marquee img { 
               display: flex;
               align-self: center;
+              flex-shrink: 0;
             }
             .trusted-marquee .logo-mast { height: 40px; width: auto; object-fit: contain; }
             .trusted-marquee .logo-hagens { height: 192px; width: auto; object-fit: contain; margin-top: 30px; }
             @media (min-width: 768px) {
               .trusted-marquee .logo-mast { height: 60px; }
               .trusted-marquee .logo-hagens { height: 240px; margin-top: 40px; }
-              .trusted-marquee { gap: 8rem; }
+              .trusted-marquee { gap: 1.5rem; }
             }
           `}</style>
 
